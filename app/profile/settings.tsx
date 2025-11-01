@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, Text} from "react-native";
+import {ScrollView, Text} from "react-native";
 
 export default function Profile() {
     return (

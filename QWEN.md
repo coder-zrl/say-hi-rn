@@ -19,10 +19,10 @@ app/
 ├── _layout.tsx          # Root stack navigator
 ├── (tabs)/
 │   ├── _layout.tsx      # Tab navigator with themed UI
-│   ├── index.tsx        # Home tab (搭)
+│   ├── settings.tsx        # Home tab (搭)
 │   ├── square.tsx       # Square tab (广场)
 │   ├── message.tsx      # Message tab (消息) with badge
-│   └── profile.tsx      # Profile tab (我)
+│   └── index.tsx      # Profile tab (我)
 components/
 ├── TabBarBackground.tsx # Custom tab bar background
 ├── ThemedText.tsx       # Themed text component

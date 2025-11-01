@@ -1,11 +1,10 @@
 import {NativeTabs, Badge, Icon, Label, VectorIcon} from 'expo-router/unstable-native-tabs';
-import Ionicons from '@expo/vector-icons/Ionicons';
-import {FontAwesome, MaterialCommunityIcons, MaterialIcons} from "@expo/vector-icons";
+import {Ionicons, FontAwesome, MaterialCommunityIcons, MaterialIcons} from "@expo/vector-icons";
 
 export default function TabLayout() {
     return (
         <NativeTabs>
-            <NativeTabs.Trigger name="index">
+            <NativeTabs.Trigger name="da">
                 <Label>找搭子</Label>
                 <Icon src={<VectorIcon family={FontAwesome} name="search" />} />
             </NativeTabs.Trigger>

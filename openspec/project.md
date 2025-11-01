@@ -26,7 +26,7 @@ A universal mobile and web application built with Expo and React Native, targeti
 - **Naming**:
   - Components: PascalCase (e.g., `ThemedText.tsx`)
   - Functions/Hooks: camelCase (e.g., `useColorScheme`)
-  - Files: kebab-case for pages (e.g., `index.tsx`, `explore.tsx`)
+  - Files: kebab-case for pages (e.g., `settings.tsx`, `explore.tsx`)
 - **Imports**: Path aliases with `@/` prefix for src root
 - **Linting**: ESLint with expo-config preset
 - **TypeScript**: Strict mode enabled with typed routes

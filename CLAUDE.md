@@ -63,7 +63,7 @@ npx expo export:web      # Web only
 - **Root Layout** (`app/_layout.tsx`): Sets up React Navigation theme provider, Stack navigator with tabs and modal route
 - **Tab Layout** (`app/(tabs)/_layout.tsx`): Bottom tab navigation with haptic feedback on tab press
 - **Tab Screens**:
-  - `index.tsx` - Home screen with parallax header and React logo
+  - `settings.tsx` - Home screen with parallax header and React logo
   - `explore.tsx` - Explore screen showing other components
 
 ### Theming System
@@ -105,7 +105,7 @@ app/                          # File-based routing (Expo Router)
 ├── _layout.tsx              # Root layout with Stack + ThemeProvider
 ├── (tabs)/                  # Tab group
 │   ├── _layout.tsx         # Tab navigation config
-│   ├── index.tsx           # Home screen
+│   ├── settings.tsx           # Home screen
 │   ├── explore.tsx         # Explore screen
 │   └── modal.tsx           # Modal screen
 components/                   # Shared UI components

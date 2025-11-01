@@ -1,7 +1,5 @@
 # CLAUDE.md
 
-强制要求：后续你沟通时都必须使用中文！！！
-
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 <!-- OPENSPEC:START -->
